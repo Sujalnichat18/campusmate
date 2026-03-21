@@ -1,0 +1,103 @@
+:root {
+  --navy: #0B1F3A;
+  --yellow: #FACC15;
+  --orange: #F97316;
+}
+
+/* BASE */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  transition: 0.3s;
+}
+
+/* NAVBAR (LIGHT UI) */
+.navbar {
+  background: var(--navy);
+  color: var(--yellow);
+}
+
+.navbar-brand,
+.nav-link {
+  color: var(--text) !important;
+}
+
+.nav-link:hover {
+  color: var(--orange) !important;
+}
+
+/* HERO */
+.hero {
+   min-height: 100vh; /* full screen height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #eee;
+
+  background: 
+    linear-gradient(rgba(53, 57, 147, 0.827), rgba(5, 3, 24, 0.5)), 
+    url('../assets/landing/campus-map.jpg');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* SECTIONS */
+.section {
+  padding: 70px 0;
+}
+
+.section.light {
+  background: #f8f9fa;
+}
+
+/* CARDS */
+.card-box {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  transition: 0.3s;
+  border: 1px solid #eee;
+}
+
+.card-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* ICON */
+.card-box i {
+  font-size: 30px;
+  color: var(--orange);
+  margin-bottom: 10px;
+}
+
+/* BUTTON */
+.btn-primary {
+  background: var(--orange);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #ea580c;
+}
+
+/* FOOTER */
+.footer {
+  background: var(--navy);
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer a {
+  color: var(--yellow);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

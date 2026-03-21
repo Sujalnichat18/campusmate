@@ -1,0 +1,141 @@
+/* =========================
+   BASE
+========================= */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #f8fafc;
+  color: #0B1F3A;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+.navbar {
+  background: #ffffff;
+  border-bottom: 1px solid #eee;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  color: #0B1F3A !important;
+}
+
+.nav-link {
+  color: #333 !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #F97316 !important;
+}
+
+/* =========================
+   HERO
+========================= */
+.hero {
+  padding: 80px 0;
+  text-align: center;
+  background: #0B1F3A;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.hero p {
+  color: #cbd5e1;
+  margin-top: 10px;
+}
+
+/* =========================
+   SECTIONS
+========================= */
+.section {
+  padding: 60px 0;
+}
+
+.section.light {
+  background: #ffffff;
+}
+
+/* =========================
+   CARD
+========================= */
+.card-box {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #eee;
+  transition: 0.3s;
+}
+
+.card-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* =========================
+   TEAM CARD TEXT
+========================= */
+.card-box h5 {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.card-box p {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+/* =========================
+   SOCIAL ICONS
+========================= */
+.card-box i {
+  font-size: 18px;
+  color: #F97316;
+  margin: 0 5px;
+  transition: 0.3s;
+}
+
+.card-box i:hover {
+  color: #0B1F3A;
+}
+
+/* =========================
+   FOOTER
+========================= */
+.footer {
+  background: #0B1F3A;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer h5 {
+  font-weight: 600;
+}
+
+.footer a {
+  color: #FACC15;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .card-box {
+    padding: 20px;
+  }
+}
