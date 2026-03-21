@@ -1,6 +1,4 @@
-/* =========================
-   BASE
-========================= */
+/* BASE */
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -8,9 +6,7 @@ body {
   color: #0B1F3A;
 }
 
-/* =========================
-   NAVBAR
-========================= */
+/* NAVBAR */
 .navbar {
   background: #ffffff;
   border-bottom: 1px solid #eee;
@@ -29,9 +25,7 @@ body {
   color: #F97316 !important;
 }
 
-/* =========================
-   HERO
-========================= */
+/* HERO */
 .dept-hero {
   background: #0B1F3A;
   color: #fff;
@@ -49,16 +43,12 @@ body {
   color: #cbd5e1;
 }
 
-/* =========================
-   SECTION
-========================= */
+/* SECTION */
 .section {
   padding: 60px 0;
 }
 
-/* =========================
-   CARD
-========================= */
+/* CARD */
 .card-box {
   background: #ffffff;
   padding: 25px;
@@ -72,17 +62,13 @@ body {
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
-/* =========================
-   IMAGE
-========================= */
+/* IMAGE */
 .card-box img {
   width: 100%;
   border-radius: 10px;
 }
 
-/* =========================
-   TEXT
-========================= */
+/* TEXT */
 .card-box h5 {
   font-weight: 600;
   margin-bottom: 10px;
@@ -93,9 +79,7 @@ body {
   font-size: 14px;
 }
 
-/* =========================
-   FOOTER
-========================= */
+/* FOOTER */
 .footer {
   background: #0B1F3A;
   color: #fff;
@@ -115,9 +99,7 @@ body {
   text-decoration: underline;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
+/* RESPONSIVE */
 @media (max-width: 768px) {
   .dept-hero h1 {
     font-size: 26px;

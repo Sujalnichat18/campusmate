@@ -1,6 +1,4 @@
-/* =========================
-   BASE
-========================= */
+/* BASE */
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -8,9 +6,7 @@ body {
   color: #0B1F3A;
 }
 
-/* =========================
-   NAVBAR
-========================= */
+/* NAVBAR */
 .navbar {
   background: #ffffff;
   border-bottom: 1px solid #eee;
@@ -30,9 +26,7 @@ body {
   color: #F97316 !important;
 }
 
-/* =========================
-   HERO
-========================= */
+/* HERO */
 .hero {
   padding: 80px 0;
   text-align: center;
@@ -50,9 +44,7 @@ body {
   margin-top: 10px;
 }
 
-/* =========================
-   SECTIONS
-========================= */
+/* SECTIONS */
 .section {
   padding: 60px 0;
 }
@@ -61,9 +53,7 @@ body {
   background: #ffffff;
 }
 
-/* =========================
-   CARD
-========================= */
+/* CARD */
 .card-box {
   background: #ffffff;
   padding: 25px;
@@ -77,9 +67,7 @@ body {
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
-/* =========================
-   TEAM CARD TEXT
-========================= */
+/* TEAM CARD TEXT */
 .card-box h5 {
   font-weight: 600;
   margin-bottom: 8px;
@@ -91,9 +79,7 @@ body {
   color: #555;
 }
 
-/* =========================
-   SOCIAL ICONS
-========================= */
+/* SOCIAL ICONS */
 .card-box i {
   font-size: 18px;
   color: #F97316;
@@ -105,9 +91,7 @@ body {
   color: #0B1F3A;
 }
 
-/* =========================
-   FOOTER
-========================= */
+/* FOOTER */
 .footer {
   background: #0B1F3A;
   color: #fff;
@@ -127,9 +111,7 @@ body {
   text-decoration: underline;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
+/* RESPONSIVE */
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 26px;

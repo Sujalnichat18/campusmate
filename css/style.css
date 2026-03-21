@@ -13,7 +13,7 @@ body {
   transition: 0.3s;
 }
 
-/* NAVBAR (LIGHT UI) */
+/* NAVBAR */
 .navbar {
   background: var(--navy);
   color: var(--yellow);
@@ -30,7 +30,7 @@ body {
 
 /* HERO */
 .hero {
-   min-height: 100vh; /* full screen height */
+   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -102,18 +102,22 @@ body {
   text-decoration: underline;
 }
 
+
 @media (max-width: 768px) {
   .hero {
-    padding: 60px 0;
+     min-height: auto !important;
+  height: auto !important;
+  padding: 20px;
   }
 
   .hero h1 {
-    font-size: 26px;
+    font-size: 22px !important;
   }
 
   .hero p {
-    font-size: 14px;
+    font-size: 13px !important;
   }
+}
 
     .dept-hero {
     padding: 50px 0;
@@ -140,4 +144,33 @@ body {
     padding: 18px;
 }
 
+#features .card-box {
+    padding: 12px;
+  }
+
+  #features .card-box i {
+    font-size: 20px;
+  }
+
+  #features .card-box h5 {
+    font-size: 14px;
+  }
+
+  #features .card-box p {
+    font-size: 12px;
+  }
+
+.footer-mobile-img {
+  display: none;
 }
+
+/* for mobile */
+  .footer-mobile-img {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .footer-mobile-img img {
+    max-width: 120px;
+    opacity: 0.9;
+  }
